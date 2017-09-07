@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>EMK Calw Veranstaltungskalender</title>
+    <link href='style/fullcalendar.min.css' rel='stylesheet'/>
+    <link href='style/fullcalendar.print.min.css' rel='stylesheet' media='print'/>
+    <script src='js/lib/moment.min.js'></script>
+    <script src='js/lib/jquery.min.js'></script>
+    <script src='js/fullcalendar.min.js'></script>
+    <script src='js/gcal.min.js'></script>
+    <script src='js/locale-all.js'></script>
+    <script src='js/main.js'></script>
+</head>
+<body>
+<div class="container">
+    <div class="row">
+        <header class="col-md-12">
+            <a href="/"><img class="img-responsive lepra-img pull-right" src="img/logo-emk.svg" width="150px"></a>
+            <button class="hamburger">&#9776;</button>
+            <button class="cross">&#735;</button>
+            <div class="menu">
+                <ul>
+                    <a href="/">
+                        <li>EMK Webseite</li>
+                    </a>
+                    <a href="/index.php?id=gemeindebrief">
+                        <li>Aktueller Gemeindebrief</li>
+                    </a>
+                    <a href="/index.php?id=email-verteiler-neu-anmelden">
+                        <li>Zum Verteiler anmelden</li>
+                    </a>
+                </ul>
+            </div>
+        </header>
+    </div>
+    <div class="row">
+        <div class="content">
+            <div class="col-md-12">
+                <h3 class="text-center">EMK Veranstaltungskalender</h3>
+            </div>
+            <div class="col-md-12">
+                <div id='loading'>loading...</div>
+                <div id='calendar'></div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<link href="style/styling.css" type="text/css" rel="stylesheet">
+<script src="https://use.fontawesome.com/7128a2f6c2.js"></script>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+        integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+        crossorigin="anonymous"></script>
+</body>
+</html>
