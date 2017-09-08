@@ -19,7 +19,7 @@ $(document).ready(function () {
             }
 
         },
-        height: 400,
+        height: 600,
         titleFormat: 'DD.MM.YYYY',
         buttonText: {
             today:    'Heute',
@@ -27,6 +27,7 @@ $(document).ready(function () {
             week:     'Woche'
         },
         timeFormat: 'H:mm',
+        listDayFormat: 'dddd - DD.MM',
         lang: 'de-at',
         locale: 'de-at',
         displayEventTime: true,
@@ -38,13 +39,11 @@ $(document).ready(function () {
         loading: function (bool) {
             $('#loading').toggle(bool);
         },
-        googleCalendarApiKey: '###',
-        events: '##'
+        googleCalendarApiKey: 'AIzaSyDRXfsomJA_mwFwi_6K904btZgxbWitjtE',
+        events: 'i0ok125krqquuqlb2uebaqvuf0@group.calendar.google.com'
     });
 
 });
-
-
 
 
 $( document ).ready(function() {
